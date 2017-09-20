@@ -1,0 +1,66 @@
+    1  nano git -download.sh (txt faila veidošana)
+    2  ls -l
+    3  cat git-download.sk (txt faila lasīšana)
+    4  git-download
+    5  ls
+    6  echo $PATH
+    7  where is ls
+    8  whereis ls
+    9  ls -l /bin/ls
+   10  cat /bin/ls
+   11  echo $PATH (sistēmas ceļu lasīšana)
+   12  whereis ls
+   13  ls -l /bin/ls
+   14  ls -l
+   15  pwd
+   16  git-download
+   17  ls
+   18  pwd
+   19  PATH=$PATH:/tmp/guest-ZMt1um (sistēmas ceļa papildināšana ar)
+   20  echo $PATH (sistēmas ceļu lasīšana)
+   21  ls -l
+   22  ls
+   23  git-download.sh
+   24  ls -l
+   25  ls -l git-download.sk 
+   26  -l /bin/ls
+   27  ls -l /bin/ls
+   28  chmod 744 git-download.sk (atļaujas)
+   29  ls -lls -l
+   30* 
+   31  git-download.sk
+   32  nano git-download.sk 
+   33  git-download.sk
+   34  ls -l
+   35  git-download
+   36  mv git-download.sk git-download (nosaukuma rediģēšana) 
+   37  ls -l
+   38  git-download
+   39  cd history
+   40  ls -la
+   41  cd DMI (atvērt failu)
+   42  ls -la
+   43  ls -l
+   44  pwd (atrašanās vieta)
+   45  mv ~/git-download ./ (faila pārvietošana (mv -move))
+   46  ls -l
+   47  echo $PATH (ceļš)
+   48  PATH=$PATH:~/DMI (papildināt ceļu)
+   49  git-download 
+   50  ls -l
+   51  rm -rf DMI (dzēšana (force))
+   52  ls -l
+   53  nano git-upload
+   54  hitory > history_20170920.txt
+   55  ls -l
+   56  chmod 744 git-upload (atlaujas)
+   57  ls -l
+   58  git-upload
+   59  ls -l
+   60  nano git-upload
+   61  ls -la
+   62  nano history_20170920.txt 
+   63  ls -l
+   64  cat history.txt  (lasīšana)
+   65  hitory > history_20170920.txt
+   66  history > history_20170920.txt (kopēšana)
