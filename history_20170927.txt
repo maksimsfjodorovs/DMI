@@ -1,0 +1,65 @@
+    1  git clone https://github.com/maksimsfjodorovs/DMI.git
+    2  ls -l
+    3  dmi
+    4  cd dmi
+    5  cd DMI
+    6  ls -la
+    7  _ALI
+    8  TOKEN_A
+    9  NAME="123"
+   10  ls -la
+   11  VAR1="123"
+   12  VAR2="100"
+   13  ls -la
+   14  #!/bin/sh
+   15  NAME="123"
+   16  echo $NAME
+   17  123
+   18  #!/bin/sh
+   19  NAME="123"
+   20  readonly NAME
+   21  NAME="456"
+   22  #!/bin/sh
+   23  NAME="123"
+   24  unset NAME
+   25  echo NAME
+   26  name="Vārds Uzvārds"
+   27  NAME="Vārds Uzvārds"
+   28  maniigais_1=10
+   29  echo $mainiigais_1
+   30  1_mainiigais=20
+   31  mainiigais_2=20
+   32  mainiigais_2_tfikyfkifuklullofgiu
+   33  echo mainiigais_2_tfikyfkifuklullofgiu
+   34  x=10
+   35  x=20
+   36  nano shell_examples.sh
+   37  ls -la
+   38  cat shell_examples.sh 
+   39  pwd
+   40  PATH=$PATH:~/DMI
+   41  echo $PATH
+   42  chmod 744 shell_examples.sh 
+   43  ls -la
+   44  shell_examples.sh 
+   45  ls -la
+   46  cat shell_examples.sh 
+   47  history
+   48  shell_examples.sh 
+   49  cat shell_examples.sh 
+   50  nano shell_examples.sh 
+   51  ls -la
+   52  shell_examples.sh 
+   53  nano shell_examples.sh 
+   54  shell_examples.sh 
+   55  nano shell_examples.sh 
+   56  shell_examples.sh 
+   57  nano shell_examples.sh 
+   58  shell_examples.sh 
+   59  cat shell_examples.sh 
+   60  pwd
+   61  ls -l
+   62  history
+   63  history > history_20170927
+   64  ls -la
+   65  history > history_20170927.txt
