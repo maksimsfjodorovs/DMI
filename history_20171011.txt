@@ -67,3 +67,38 @@
    67  nano git-upload 
    68  ./git-upload
    69  history > history_20171011.txt
+   70  ./git-upload 
+   71  ./shell_operators.sh 
+   72  ls- la
+   73  ls -la
+   74  nano shell_examples.sh
+   75  ./shell_operators.sh a=5 b=10
+   76  rm -rf mainigie.sh.save 
+   77  ls -l
+   78  cat shell_examples.sh 
+   79  cat shell_examples_1.sh
+   80  cat shell_operators.sh 
+   81  ./shell_operators.sh [5==10]
+   82  ./shell_operators.sh [5 -eq 10]
+   83  ./shell_operators.sh [5 -ne 10]
+   84  nano shell_examples_1.sh 
+   85  nano shell_examples.sh 
+   86  ./shell_operators.sh 
+   87  nano shell_operators.sh 
+   88  ./shell_operators.sh 
+   89  ./shell_operators.sh  5 10
+   90  ./shell_operators.sh 78 96
+   91  nano shell_operators.sh 
+   92  ./shell_operators.sh 78 96
+   93  ./shell_operators.sh
+   94  ./shell_operators.sh1
+   95  ./shell_operators.sh 1
+   96  ./shell_operators.sh 1 1
+   97  nano dialogs.sh
+   98  chmod 744 dialogs.sh 
+   99  ./dialogs.sh 
+  100  nano dialogs.sh 
+  101  ./dialogs.sh 
+  102  nano dialogs.sh 
+  103  nano git-upload 
+  104  history > history_20171011.txt
