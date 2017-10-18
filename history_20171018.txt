@@ -1,0 +1,71 @@
+    1  git clone https://github.com/maksimsfjodorovs/DMI.git
+    2  cd DMI
+    3  ls -la
+    4  rm -rf mainigie.sh.save 
+    5  ls -la
+    6  ls -l
+    7  nano shell_operators.sh 
+    8  nano dialogs.sh
+    9  nano dialogs_2.sh
+   10  chmod 744 dialogs_2.sh 
+   11  ./dialogs_2.sh 
+   12  nano dialogs_2.sh
+   13  ./dialogs_2.sh 
+   14  nano dialogs_2.sh
+   15  ./dialogs_2.sh 
+   16  nano dialogs_2.sh
+   17  ./dialogs_2.sh 
+   18  nano dialogs_2.sh 
+   19  ./dialogs_2.sh 
+   20  nano dialogs_2.sh 
+   21  ./dialogs_2.sh 
+   22  nano dialogs_2.sh 
+   23  ./dialogs_2.sh 
+   24  nano dialogs_2.sh 
+   25  ./dialogs_2.sh 
+   26  nano dialogs_2.sh 
+   27  ./dialogs_2.sh 
+   28  nano dialogs_2.sh 
+   29  ./dialogs_2.sh 
+   30  nano dialogs_2.sh 
+   31  ./dialogs_2.sh 
+   32  nano dialogs_2.sh 
+   33  ./dialogs_2.sh 
+   34  nano dialogs_2.sh 
+   35  ./dialogs_2.sh 
+   36  nano dialogs_2.sh 
+   37  ./dialogs_2.sh 
+   38  nano dialogs_2.sh 
+   39  ./dialogs_2.sh 
+   40  nano dialogs_2.sh 
+   41  ./dialogs_2.sh 
+   42  ls -la
+   43  nano dialogs_2.sh 
+   44  ./dialogs_2.sh 
+   45  nano dialogs_2.sh 
+   46  ./dialogs_2.sh 
+   47  nano dialogs_2.sh 
+   48  ./dialogs_2.sh 
+   49  nano dialogs_2.sh 
+   50  ./dialogs_2.sh 
+   51  nano dialogs_2.sh 
+   52  ./dialogs_2.sh 
+   53  nano dialogs_2.sh 
+   54  ./dialogs_2.sh 
+   55  nano dialogs_2.sh 
+   56  cp a
+   57  cp a_VS_b.sh a_VS_b_VS_c
+   58  ls -la
+   59  chmod 744 a_VS_b.sh
+   60  chmod 744 a_VS_b_VS_c.sh
+   61  nano a_VS_b_VS_c
+   62  ls -la
+   63  rm -rf a_VS_b_VS_c
+   64  chmod 744 a_VS_b_VS_c.sh
+   65  ls -la
+   66  nano a_VS_b_VS_c.sh 
+   67  rm -rf dialogs_2.sh 
+   68  ls -la
+   69  cat skripts1.sh.save 
+   70  nano a_VS_b_VS_c.sh 
+   71  history > history_20171018.txt
