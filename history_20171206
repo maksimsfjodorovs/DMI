@@ -1,0 +1,7 @@
+    1  VirtualBox --startvm XP
+    2  IDLE
+    3  idle
+    4  cd ..
+    5  ls -l
+    6  hisory > history_20171206
+    7  history > history_20171206
