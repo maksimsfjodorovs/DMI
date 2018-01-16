@@ -1,0 +1,130 @@
+#!/bin/bash
+echo "ievadi skaitli: "
+read a1
+
+: <<'END'
+
+let "a2 = a1 + 1"
+let "a3 = a2 + 1"
+let "a4 = a3 + 1"
+let "a5 = a4 + 1"
+let "a6 = a5 + 1"
+let "a7 = a6 + 1"
+let "a8 = a7 + 1"
+let "a9 = a8 + 1"
+let "a10 = a9 + 1"
+let "a11 = a10 + 1"
+
+let "b1 = a1 % 1"
+let "b2 = a2 % 1"
+let "b3 = a3 % 1"
+let "b4 = a4 % 1"
+let "b5 = a5 % 1"
+let "b6 = a6 % 1"
+let "b7 = a7 % 1"
+let "b8 = a8 % 1"
+let "b9 = a9 % 1"
+let "b10 = a10 % 1"
+let "b11 = a11 % 1"
+
+let "c1 = a1 % 2"
+let "c2 = a2 % 2"
+let "c3 = a3 % 2"
+let "c4 = a4 % 2"
+let "c5 = a5 % 2"
+let "c6 = a6 % 2"
+let "c7 = a7 % 2"
+let "c8 = a8 % 2"
+let "c9 = a9 % 2"
+let "c10 = a10 % 2"
+let "c11 = a11 % 2"
+
+let "d1 = a1 % 3"
+let "d2 = a2 % 3"
+let "d3 = a3 % 3"
+let "d4 = a4 % 3"
+let "d5 = a5 % 3"
+let "d6 = a6 % 3"
+let "d7 = a7 % 3"
+let "d8 = a8 % 3"
+let "d9 = a9 % 3"
+let "d10 = a10 % 3"
+let "d11 = a11 % 3"
+
+let "e1 = a1 % 4"
+let "e2 = a2 % 4"
+let "e3 = a3 % 4"
+let "e4 = a4 % 4"
+let "e5 = a5 % 4"
+let "e6 = a6 % 4"
+let "e7 = a7 % 4"
+let "e8 = a8 % 4"
+let "e9 = a9 % 4"
+let "e10 = a10 % 4"
+let "e11 = a11 % 4"
+
+let "f1 = a1 % 5"
+let "f2 = a2 % 5"
+let "f3 = a3 % 5"
+let "f4 = a4 % 5"
+let "f5 = a5 % 5"
+let "f6 = a6 % 5"
+let "f7 = a7 % 5"
+let "f8 = a8 % 5"
+let "f9 = a9 % 5"
+let "f10 = a10 % 5"
+let "f11 = a11 % 5"
+
+let "g1 = a1 % 10"
+let "g2 = a2 % 10"
+let "g3 = a3 % 10"
+let "g4 = a4 % 10"
+let "g5 = a5 % 10"
+let "g6 = a6 % 10"
+let "g7 = a7 % 10"
+let "g8 = a8 % 10"
+let "g9 = a9 % 10"
+let "g10 = a10 % 10"
+let "g11 = a11 % 10"
+
+
+echo $a1    $b1    $c1    $d1    $e1    $f1    $g1
+
+echo $a2    $b2    $c2    $d2    $e2    $f2    $g2
+
+echo $a3    $b3    $c3    $d3    $e3    $f3    $g3
+
+echo $a4    $b4    $c4    $d4    $e4    $f4    $g4
+
+echo $a5    $b5    $c5    $d5    $e5    $f5    $g5
+
+echo $a6    $b6    $c6    $d6    $e6    $f6    $g6
+
+echo $a7    $b7    $c7    $d7    $e7    $f7    $g7
+
+echo $a8    $b8    $c8    $d8    $e8    $f8    $g8
+
+echo $a9    $b9    $c9    $d9    $e9    $f9    $g9
+
+echo $a10   $b10    $c10    $d10    $e10    $f10    $g10
+
+echo $a11   $b11    $c11    $d11    $e11    $f11    $g11
+
+END
+
+#i = 5
+#while i < 15:
+#   print(i)
+#   i = i + 1
+#for arg0 in a2 a3 a4 a5 a6 a7 a8 a9 a10 a11
+#for arg1 in a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
+#do
+#echo let "$arg0 = $arg1 + 1"
+#done
+
+
+while [ $a1 < 11 ]
+do
+   echo $a1
+   a1=`expr $a1 + 1`
+done
