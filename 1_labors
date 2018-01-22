@@ -112,27 +112,17 @@ echo $a11   $b11    $c11    $d11    $e11    $f11    $g11
 
 END
 
-#i = 5
-#while i < 15:
-#   print(i)
-#   i = i + 1
-#for arg0 in a2 a3 a4 a5 a6 a7 a8 a9 a10 a11
-#for arg1 in a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
-#do
-#echo let "$arg0 = $arg1 + 1"
 
-#while [ $a1 ]
-#do
-#   echo $a1
-#   a1=`expr $a1 + 1`
-#done
+b=`expr $a1 + 11`
 
-var0=$a1
-LIMIT=11
-while [ "$var0" -lt "$LIMIT" ]
+while [ $a1 -lt $b ]  #loop 1
 do
-  echo  "$var0 "        # -n подавляет перевод строки.
-  var0=`expr $var0 + 1`   # допускается var0=$(($var0+1)).
+   c=$a1
+#   while [ $c -lt $b] #loop 2
+#   do
+      echo -n $c
+      c=`expr $c % 1`
+   done
+   echo $a1
+   a1=`expr $a1 + 1`
 done
-echo
-exit 0
