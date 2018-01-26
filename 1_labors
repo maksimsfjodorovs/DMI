@@ -88,23 +88,23 @@ let "g10 = a10 % 10"
 let "g11 = a11 % 10"
 
 
-echo $a1    $b1    $c1    $d1    $e1    $f1    $g1
+echo $a1    $b1     $c1     $d1     $e1     $f1     $g1
 
-echo $a2    $b2    $c2    $d2    $e2    $f2    $g2
+echo $a2    $b2     $c2     $d2     $e2     $f2     $g2
 
-echo $a3    $b3    $c3    $d3    $e3    $f3    $g3
+echo $a3    $b3     $c3     $d3     $e3     $f3     $g3
 
-echo $a4    $b4    $c4    $d4    $e4    $f4    $g4
+echo $a4    $b4     $c4     $d4     $e4     $f4     $g4
 
-echo $a5    $b5    $c5    $d5    $e5    $f5    $g5
+echo $a5    $b5     $c5     $d5     $e5     $f5     $g5
 
-echo $a6    $b6    $c6    $d6    $e6    $f6    $g6
+echo $a6    $b6     $c6     $d6     $e6     $f6     $g6
 
-echo $a7    $b7    $c7    $d7    $e7    $f7    $g7
+echo $a7    $b7     $c7     $d7     $e7     $f7     $g7
 
-echo $a8    $b8    $c8    $d8    $e8    $f8    $g8
+echo $a8    $b8     $c8     $d8     $e8     $f8     $g8
 
-echo $a9    $b9    $c9    $d9    $e9    $f9    $g9
+echo $a9    $b9     $c9     $d9     $e9     $f9     $g9
 
 echo $a10   $b10    $c10    $d10    $e10    $f10    $g10
 
@@ -118,11 +118,12 @@ b=`expr $a1 + 11`
 while [ $a1 -lt $b ]  #loop 1
 do
    c=$a1
-#   while [ $c -lt $b] #loop 2
-#   do
+   while [ $c -lt $b ] #loop 2
+   do
       echo -n $c
       c=`expr $c % 1`
    done
    echo $a1
    a1=`expr $a1 + 1`
 done
+

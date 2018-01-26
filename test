@@ -1,15 +1,20 @@
-#!/bin/sh
+#!/usr/bin/python
 
-read a
+y = input("Ievadi y: ")
+print "y = ", (y)
+print "y  \t%1  \t%2  \t%3  \t%4  \t%5  \t%10 "
 
-b=`expr $a + 10`
+k=0
+while (k < 10):
 
-while [ $a -lt $b ]
-do
-   echo $a
-#   if [ $a -eq 5 ]
-#   then
-#      break
-#   fi
-   a=`expr $a + 1`
-done
+    a = y%1
+    b = y%2
+    c = y%3
+    d = y%4
+    e = y%5
+    f = y%10
+
+    print (y), " \t", (a), " \t", (b), " \t", (c), " \t", (d), " \t", (e), " \t ", (f), ""
+
+    y=y+1
+    k=k+1
